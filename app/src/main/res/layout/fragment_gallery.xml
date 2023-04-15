@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dashboard"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/notification_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Notifications"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notification_header"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_welcome_aditya"
+            android:text="Welcome Aditya"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_agree"
+            android:text="Read our agreements"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_ntf"
+            android:text="Turn on notifications"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_professional"
+            android:text="Reach out for professional aid"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_search"
+            android:text="Search medicines online"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_emergency"
+            android:text="Ways to report emergency"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_comp_prof"
+            android:text="Complete your profile"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntf_prem"
+            android:text="Try our premium, adds free version"
+            android:textSize="20dp"
+            android:background="#30bfffff"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
